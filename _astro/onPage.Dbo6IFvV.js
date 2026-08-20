@@ -1,0 +1,1 @@
+var e=`brain:page-updated`,t=0;document.addEventListener(`astro:page-load`,()=>{t+=1});function n(n){let r=t>0;document.addEventListener(`astro:page-load`,n),document.addEventListener(e,n),r&&n()}export{n,e as t};
